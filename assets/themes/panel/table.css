@@ -1,0 +1,119 @@
+table#table_list{
+    border-top: 1px solid #EBEBEB;
+    position: relative; 
+    color: #666;
+    border-right: 1px solid #EBEBEB;
+    position: relative;  
+}
+ 
+span.show_hide{
+    float: left;
+    padding: 5px;
+    cursor: pointer; 
+}
+table#table_list tr.header{
+    margin-bottom: 10px;
+    position: relative;
+}
+table#table_list th,table#table_list th+th, table#table_list td, table#table_list td+td{
+    text-transform: capitalize;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    padding:3px 5px;
+    font-size: 11px; 
+}
+
+table#table_list th:first-child,table#table_list td:first-child{
+   border-left: none;
+}
+table#table_list th a, table#table_list td a{
+    text-decoration: none;
+    color: #666;
+    text-transform: capitalize;
+}
+ 
+table#table_list th,table#table_list th+th{
+    padding: 3px 5px;
+    font: 11px/25px arial,helvetica,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+     background-image: -moz-linear-gradient(center top , rgb(249, 249, 249), rgb(242, 242, 242)); 
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(249, 249, 249)), to(rgb(242, 242, 242)));
+    background-image: -o-linear-gradient(center top, rgb(249, 249, 249), rgb(242, 242, 242)); 
+    position: relative;  
+}
+table#table_list tr.zebra{
+    background: #FFFFFF;
+}
+table#table_list tr#header{
+     background-image: -moz-linear-gradient(center top , rgb(249, 249, 249), rgb(242, 242, 242)); 
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(249, 249, 249)), to(rgb(242, 242, 242)));
+    background-image: -o-linear-gradient(center top, rgb(249, 249, 249), rgb(242, 242, 242)); 
+    
+} 
+table#table_list tr:hover{
+    background-color:#f1f9c2;
+}
+table#table_list tr label{
+    float: left; 
+    width: 100%;
+    padding: 5px;
+    color: #666;
+}
+table#table_list tr input.field_input{
+    padding: 5px;
+    border: none;
+    float: left;
+    width: 100%;
+}
+table#table_list tr input.basic,table#child_table tr input.basic{
+    padding: 3px;
+    border: none; 
+    border-bottom: 1px solid #EBEBEB;
+}
+table#child_table{
+    border-top: 1px solid #EBEBEB;
+    position: relative;
+    border-right: 1px solid #EBEBEB;
+    color: #666;
+}
+table#child_table th,table#child_table th+th, table#child_table td, table#child_table td+td{
+    text-transform: capitalize;
+    border-bottom: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    padding:3px;
+    font-size: 13px;
+}
+ 
+table#child_table tr label{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    color: #666;
+}
+table#child_table tr input.field_input{
+    padding: 3px;
+    border: 1px solid #EBEBEB;
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    color: #666;
+} 
+table#child_table ul{
+    float: left;
+
+}
+table#child_table ul li{
+    float: left;
+    width: 100%;
+    padding: 5px; 
+}
+table#child_table th,table#child_table th+th{
+    padding: 7px;
+    font-size: 13px;
+    font: 11px/25px arial,helvetica,sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #777;
+}

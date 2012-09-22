@@ -1,0 +1,169 @@
+form.comment{
+    float: left;
+    width: 100%;
+}
+form.comment input{
+    float: left;
+    border: none;
+}
+form.comment input.submit{ 
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+form.comment textarea{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #CCC;
+    margin-bottom: 5px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 9px;
+    min-height: 50px;
+}
+ul.com_list{
+    float: left;
+    list-style: none;
+    margin: 0px;
+    width: 100%; 
+}
+ul.com_list li{
+    float: left;
+    padding: 10px 0;
+    margin: 0px;
+    width: 100%;  
+}
+ul.com_list li:last-child{
+    border-bottom: 1px solid #EBEBEB;
+}
+div.com_left_img,p.fill_com_img{
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+}
+div.com_cont{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+div.com_left_img img,p.fill_com_img img{
+    float: left;
+    max-width: 100%;
+    max-height: 75px;
+}
+div.com_tri{
+    float: left;
+    border-color: transparent  #EBEBEB transparent transparent ;
+    border-style: solid;
+    border-width: 10px;
+    height: 0px;
+    width: 0px;
+    position: relative;
+    bottom: -19px;
+    left: -10px;
+    top:10px;
+}
+div.real_cont{
+    left: 10px;
+    float: left;
+    width: 96%;
+    position: relative; 
+    padding: 1%;
+    top:-17px;
+    border:1px solid #EBEBEB; 
+}
+div.comment_content,p.fill_com_content{
+    float: left;
+    width: 88%;
+    position: relative;
+    right: 0px; 
+}
+p.fill_com_content{
+    top:-10px;
+}
+div.comment_content{
+    top:-10px;
+}
+div.com_act{
+    float: left;
+    width: 100%;
+    position: relative; 
+}
+div.com_act a.act_tog{
+    position: absolute;
+    right: 10px;
+    top:5px; 
+    height: 20px;
+    width: 20px; 
+    background: url("../images/i_comment.png") center center no-repeat;
+    opacity: 0.4;
+} 
+.fill_smiley{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.fill_smiley a.opt_smiley{
+    position: absolute;
+    right: 60px;
+    top:-22px;
+}
+
+.submit-comment{
+    right: 0px;
+    position: absolute; 
+    top:-30px;
+}
+.fill_smiley #fill_cont_smilley{
+    position: absolute;
+    left: 77px;
+    top: -30px;
+    float: left;
+    background: #FFF;
+    z-index: 20;
+} 
+div.comment_via{
+    float: left;
+    margin-bottom: -10px
+}
+div.comment_via .relate{
+    margin-bottom: 0px;
+}
+.fb_com{
+    float: left;
+    width: 99%;
+    margin-top: 10px;
+}
+#fill_cont_smilley table{
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+#fill_cont_smilley table td, #fill_cont_smilley table td+td, #fill_cont_smilley table tr+tr, #fill_cont_smilley table tr{
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 2px;
+}
+div.encode{
+    float: left; 
+    padding: 5px 0;
+    margin: 0px; 
+    width: 88%;
+    position: relative; 
+    top: -2px;
+}
+div.encode a{
+    border: 1px solid #CCC;
+    padding: 5px;
+    background: #EBEBEB;
+}
+div.encode a.help{
+    position: absolute;
+    right: 1px;
+    top: -1px;
+}
+.com_content{
+    float: left;
+    width: 99%;
+    padding: 5px;
+}

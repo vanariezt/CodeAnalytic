@@ -1,0 +1,1 @@
+<?php echo ca_delete_poppup("$url");?>

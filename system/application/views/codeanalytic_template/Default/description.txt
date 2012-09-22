@@ -1,0 +1,5 @@
+Aris Sudaryanto
+***
+Theme for CodeAnalytic cms is stylish, customizable, simple,
+and readable. Make it yours with a custom menu, header image, and background.
+You can see much supports widget areas (in the sidebar, footer) and featured images It include inside

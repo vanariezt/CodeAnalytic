@@ -1,0 +1,107 @@
+iframe#youtube{
+    width:55%;
+    height:250px;
+    float: left;
+    padding: 10px;
+}
+.album_categories{
+    float: left; 
+    margin: 0px;
+    padding: 0px;
+}
+.album_categories p{
+    float: left;   
+    margin: 0px;
+    padding: 0px;
+}
+.album_categories p.selected img{ 
+    border: 1px solid #EBEBEB;
+    background: #000;
+    opacity: 0.5;
+}
+.album_categories p img{    
+    float: left;
+    width: 60px;
+    height: 45px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #EBEBEB;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.post_gallery{
+    float: left;
+    padding: 10px; 
+    width: 98%;
+    position: relative;
+}
+.post_gallery .gallery_box{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.post_gallery .gallery_box ul.gallery{
+    float: left;
+    width: 100%;
+}
+.post_gallery ul, .post_gallery ul li{
+    float: left;
+    list-style: none;
+}
+.post_gallery .gal_set{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 200px;
+}
+.post_gallery .album_gal_title{
+    font-family: BebasNeueRegular, Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.7px;
+    text-transform: lowercase;
+}
+
+.post_gallery .cat_gal_box ul{
+    float: left;
+    width: 100%;
+}
+.post_gallery .cat_gal_box ul li{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+}
+.post_gallery .cat_gal_box ul li a{
+    float: left;
+    width: 94%;
+    padding: 2%;
+
+}
+.post_gallery .cat_gal_box ul li:last-child{
+    border-bottom: none;
+}
+.post_gallery .gal_set a.cat_gal{
+    float: right;
+}
+.post_gallery div.cat_gal_box{
+    position: relative;
+    display: none;
+    float: left;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    width: 200px;
+    right: 10px;
+}
+.post_gallery ul li img{
+    float: left;
+    width: 90px;
+    height: 75px;
+    padding: 5px;
+    background: white;
+    border: 1px solid #EBEBEB;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.post_gallery ul li a{
+    float: left;
+    padding: 5px; 
+}

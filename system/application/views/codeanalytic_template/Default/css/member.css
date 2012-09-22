@@ -1,0 +1,22 @@
+div.left_mem{
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+}
+div.right_mem{
+    float: left;
+    width: 88%;
+    position: relative;
+}
+div.right_mem .r_mem_info{
+    float: left;
+    width: 100%;
+    position: relative;
+    left: 0px;
+}
+div.left_mem img{
+    float: left;
+    width: 100%;
+    max-width: 75px;
+        
+} 

@@ -1,0 +1,217 @@
+.cen_split{
+    float: left;
+    background: rgb(245, 245, 245);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.199219) -1px 0px 3px;
+    -webkit-transition: all 130ms ease-in-out;
+    -moz-box-shadow: rgba(0, 0, 0, 0.199219) -1px 0px 3px;
+    -moz-transition: all 130ms ease-in-out;
+    -o-box-shadow: rgba(0, 0, 0, 0.199219) -1px 0px 3px;
+    -o-transition: all 130ms ease-in-out;
+    border-left: 1px solid rgb(200, 200, 200);
+    border-right: 1px solid rgb(200, 200, 200);
+    width: 0.5%;
+    
+}
+#center{
+    float: left; 
+    width: 100%;
+    line-height: 25px;
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+#center h2{
+    margin-bottom: 10px;
+}
+#center #center_menu {
+    float: left;
+    padding:5px 0;
+    width: 100%;
+}
+#center #center_menu #cm_left,  #cm_left{
+    float: left;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #DD4B39;
+    text-transform: uppercase;
+    padding: 2px;
+
+}
+div#head_detil{
+    float: left;
+    padding: 5px 0; 
+    text-align: right;
+    background-color: #7BC2E0;
+}
+#cm_right{
+    float: right;
+    text-align: right;
+}
+#cm_right a{
+    text-decoration: none;
+    padding: 0px;
+    color: #FFF;
+    opacity:0.7;
+}
+
+#center #center_content{
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: #FFF;
+} 
+#center #cen_right{
+    float: left;
+    width: 80%;  
+    background-color: #FFF;
+   }
+#center .main_left{
+    float: left;
+    width: 66%; 
+    padding-left: 1%;
+    background-color: #FFF;
+}
+#center .main_right{
+    float: left;
+    width: 30%;    
+    padding-left: 1%;
+    border-left: 1px solid #EBEBEB;
+    background-color: #FFF;
+} 
+table tr td a.hidex{
+    padding: 2px 8px;
+    background: url("images/middle/show.png") left no-repeat;
+}
+table tr td a.showx{
+    padding: 3px 8px;
+    background: url("images/middle/hide.png") left no-repeat;
+}
+#show_limiter{
+    float: left;
+    width: 98.9%;
+    padding: 10px 0px;
+    padding: 5px;
+}
+#show_limiter select {
+    padding: 3px 5px;
+    border: 1px solid #E5E5E5;
+}
+span#auto_sugest{
+    position: relative;
+    z-index: 1;
+}
+span#auto_sugest ul{
+    position: absolute;
+    z-index: 1;
+    float: left;
+    width: 301px;
+    margin-top: 53px;
+    background: #FFF;
+    opacity:1;
+    border: 1px solid #E5E5E5;
+    left:-325px;
+}
+span#auto_sugest ul li{
+    cursor: pointer;
+    float: left;
+    border-bottom: 1px solid #E5E5E5;
+    width: 80%;
+}
+span#auto_sugest ul li:last-child{
+    border-bottom: none;
+}
+span#auto_sugest ul li:hover{
+    background-color: #f0f0f0;
+}
+div#cen_right div#search {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+}
+div#cen_right div#search p{
+    float: left;
+    width: 90%;
+    margin-left: 40px;
+}
+div#cen_right div#search input, div#cen_right div#search label, div#cen_right div#search select{
+    float: left;
+    padding: 0 5px;
+    color: #666;
+}
+div#cen_right div#search p label{
+    float: left;
+    width: 100px;
+    color: #666;
+}
+div#cen_right div#search input,div#cen_right div#search select{
+    border: 1px solid #E5E5E5;
+}
+div#dash_board{
+    float: left;
+    width: 100%;
+}
+div#top_dash{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #f0f0f0;
+}
+table.table_content{
+    margin-bottom: 10px;
+    float: left;
+}
+p#mod_list{
+    padding: 5px 0;
+}
+p#mod_list:last-child{
+    border-bottom: none;
+}
+a#ico-add{
+    background: url(images/small/add.png) left no-repeat;
+    padding: 6px;
+}
+a#ico-publish{
+    background: url(images/small/pencil.png) left no-repeat;
+    padding: 6px;
+}
+a#ico-delete{
+    background: url(images/small/cross.png) left no-repeat;
+    padding: 6px;
+}
+div#cen_right #info{
+    padding: 5px;
+    background: #fcfcfc;;
+}
+div#report_list{
+    float: left;
+    width: 100%;
+    background-color: #FFF;
+    text-transform: uppercase;
+}
+div#report_list p{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+}
+div#head_list{
+    width: 100%;
+    background: #FFF;
+    padding: 5px 0;
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #E5E5E5;
+}
+div#report_list p label{
+    float: left;
+    width: 15%;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+div#report_list p span{
+    float: left;
+    padding: 5px;text-transform: uppercase;
+}
+div#logs_bar{
+    position: relative;
+} 

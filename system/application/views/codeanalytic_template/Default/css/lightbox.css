@@ -1,0 +1,168 @@
+/** LIGHTBOX */
+.red_rounded{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -o-border-radius:50%;
+    position: absolute;
+    top:-12px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.light_box{
+    position: fixed;
+    text-align: left;
+    background:  none repeat scroll 0 0 #666666;
+    padding: 4px;
+    z-index: 1;
+    box-shadow: 0 0 20px #333333;
+    -moz-box-shadow: 0 0 20px #333333;
+    -webkit-box-shadow: 0 0 20px #333333;
+    -o-box-shadow: 0 0 20px #333333;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.light_box #top_tap{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.light_box #top_tap h4{
+    font-size: 18px;
+    font-weight: 500; 
+    color: #333333;
+    text-transform: capitalize;  
+}
+div#c_notive{
+    padding: 20px;
+    background: #FFFFFF;
+    color: #cc0000;
+}
+div#notive{
+    text-align: center;  
+    font-size: 13px;
+    cursor: pointer;
+    max-width: 400px; 
+    margin-left: 41.5%;
+    margin-top: 3px;
+    position: absolute;
+    top: 100px;
+    z-index: 100;
+    box-shadow: 0 0 20px #333333;
+    -moz-box-shadow: 0 0 20px #333333;
+    -webkit-box-shadow: 0 0 20px #333333;
+    -o-box-shadow: 0 0 20px #333333;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.light_box .editor_tab h2{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.light_box div.content,.light_box div.footer, .light_box .launch_footer{
+    float: left;
+    width: 94%; 
+    padding: 3%;
+}
+.light_box p{
+    float: left;
+    padding: 5px 0 0 0;
+    width: 100%; 
+    margin: 0px;
+}
+.light_box p input, .light_box p select{ 
+    
+}
+.light_box p:last-child{
+    border-bottom: none;
+}
+.light_box label{
+    float: left;
+    padding: 5px;
+    width: 23%;
+    text-transform:uppercase;
+    font-size: 12px;
+}
+.light_box span{
+    float: left;
+    width: 100%;    
+}
+.light_box span.errorlist{
+    color: #cc0000;
+    margin-left: 90px;
+}
+.light_box div.content{
+    background-color: #FFF;
+}
+.light_box div.footer, .light_box .launch_footer{
+    text-align: right;
+}
+.light_box .menu_tab{
+   padding: 10px 5px 3px 5px;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+.light_box .menu_tab a{
+    color: #666;
+    text-decoration: none;
+}
+.light_box .menu_tab a{
+    padding: 5px;
+}
+.light_box .menu_tab a.selected{
+    background-color: #FFF;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+}
+.light_box div.footer a, .light_box .launch_footer a{     
+    padding: 3px 10px; 
+    margin: 0px;
+    cursor: pointer;
+}
+.light_box .light_content{
+    background: #FFFFFF;
+    float: left;
+    max-height: 570px;
+    min-width: 400px;
+    max-width: 780px; 
+    padding: 15px;
+}
+.light_box .light_content .information{
+    padding: 2%;
+}
+.light_box .light_content .footer, .light_box .launch_footer{
+    text-align: right; 
+}
+.light_box fieldset{
+    border: 1px solid #ebebeb;
+}
+.light_box fieldset legend{
+    color: #666;
+    font-size: 12px;
+}
+.light_box form{
+    padding: 0px;
+    margin: 0px;
+}
+.light_box form p{
+    padding: 5px;
+    margin: 0px;
+}
+.light_box form p input{
+    padding: 5px;
+    border: 1px solid #EBEBEB; 
+}
+.light_box .header_box{
+    padding: 5px; 
+    text-align: center;
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,98 @@
+#wrap_right{
+    float: left;  
+    background: #FFF;
+    margin-left: 5px;
+    width: 255px;
+}
+.widget_right{
+    float: left;  
+    width: 100%;
+}
+#sidebar { 
+    float: left;
+    width: 100%; 
+}
+#question_poll{
+    font-size: 14px;
+} 
+.post .detil{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+#ao_right ul.list_berita li{
+    padding: 5px;
+    float: left;
+    border-bottom: 1px solid #EBEBEB;
+} 
+#ao_right ul.list_berita li:last-child{
+    border-bottom: none;
+}
+div.detil_ao_left{
+    float: left;
+    width: 490px;
+}
+div.detil_ao_right{
+    float: left;
+    width: 160px;
+    padding-left: 30px;
+}
+div.detil_ao_right h3{
+    color: #2F5BB7;
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #EBEBEB;
+}
+div.ao_tabs{
+    float: left;
+    width: 100%;
+    margin-top: 30px; 
+}
+div.ao_tabs .tabs_bar{
+    padding: 5px;
+    background: url("images/menu.png") repeat-x scroll 0 0 transparent;
+}
+div.ao_tabs .tabs_bar a{
+    color: #21759B;
+}
+div.history{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.history h3{
+    border-bottom: 1px solid #EBEBEB;
+    font-weight: bold;
+}
+.history p{
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.history p label{
+    float: left;
+    font-weight: bold;
+    width: 75px;
+}
+
+.member_content{
+    padding: 10px;
+    float: left; 
+}
+.mem_info p{
+    float: left;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.mem_info p label{
+    float: left;
+    width: 200px; 
+    padding-right: 10px;
+    margin-right: 10px;
+    font-weight: bold; 
+}
+ 

@@ -1,0 +1,270 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font: 81.25%/20px arial,helvetica,sans-serif; 
+    color: #343434;    
+}
+a{
+    color: #005C9C;
+    text-decoration: none;
+}
+a:hover{
+    color: #4787ED;
+    text-decoration: none;
+}
+/* Header.....................................................*/
+#header{
+    height: 60px;
+    background: #1A1B1D url(images/bg.png) repeat-x;
+    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 0px 5px #333;
+    -moz-box-shadow: 0px 0px 5px #333;
+    -webkit-box-shadow: 0px 0px 5px #333;
+    width: 100%;
+}
+div#header #head_left{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 15px;
+}
+div#header #head_right{
+    float: right;
+    width: 30%;
+    text-align: right;
+    margin-right:5%;
+    padding-right: 10px;
+} 
+#panel_logo{
+    height: 25px;
+    padding: 10px 0;
+    background: url("./images/logo.png") no-repeat;
+    margin: 7px 0px 0px 30px;
+    float: left;
+    width: 250px;
+    cursor: pointer;
+}
+#panel_lang{
+    float: right;
+}
+#panel_lang select{
+    background: #F9F9F9;
+    margin-top: 16px;
+    margin-left: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 150px;
+    display: block;
+    padding: 2px 2px;
+    color: #343434;
+    font-size: 12px;
+}
+/* MAIN.....................................................*/
+#wrapper_box{
+    margin: 0px auto;
+    width: 90%;
+}
+div#wrapper{
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+}
+div#left_login{
+    float: left;
+    width: 35%;
+    line-height: 20px;
+    padding-left: 3%;
+    overflow: hidden; 
+}
+div#right_login ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0px;
+    margin-left: 0px;
+}
+div#right_login ul li{
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+div#right_login ul li.seo{
+    width: 100%;
+    float: left;
+    padding:2% 2%;
+    background: url("images/seo.png") left 20px no-repeat;
+    height: 65px;
+}
+div#right_login ul li.platform{
+    width: 100%;
+    float: left;
+    padding:2% 2%;
+    background: url("images/platform.png") left 20px  no-repeat;
+    height: 65px;
+}
+div#right_login ul li.ajax{
+    width: 100%;
+    float: left;
+    padding:2% 2%;
+    background: url("images/ajax.png") left 20px  no-repeat;
+    height: 65px;
+}
+div#right_login ul li.seo:hover{
+    background: url("images/seo.png") left -69px no-repeat;
+}
+div#right_login ul li.platform:hover{
+    background: url("images/platform.png") left -69px no-repeat;
+}
+div#right_login ul li.ajax:hover{
+    background: url("images/ajax.png") left -69px no-repeat;
+}
+div#right_login ul li .title{
+    font-size: 16px;
+    margin-top: 8px;
+}
+div#right_login ul li p{
+    margin: 0 0 0 12%;
+}
+
+div#right_login{
+    float: left;
+    width: 57%;
+    margin-top: -20px;
+    padding-left: 4%;
+}
+div#right_login h2{
+    color: #343434;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+    font-size:35px;
+    line-height: 1.2;
+}
+div#left_login form{
+    position: relative;
+    margin-top: 12%;
+    float: left;
+    max-height: 400px;
+    height: 400px;
+    padding: 10px; 
+    background: url("images/ipad.png") top center no-repeat;
+    width: 95%;
+    z-index: 999;
+}
+div#title{
+    width: 80%;
+    height: 10px;
+    margin: 15px auto 40px auto;
+    position: relative;
+    color: #ff6666;
+}
+.box-input {
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 15px auto 30px auto;
+    position: relative;
+    overflow: visible;
+}
+.box-input input {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 1px 0 rgba(255, 255, 255, .075);
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 1px 0 rgba(255, 255, 255, .075);
+  }
+.box-input input.text-input {
+    border: 1px solid #CCC;
+    -webkit-box-shadow: inset 0 1px 0 #EEE,white 0 1px 0;
+    -moz-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+    box-shadow: inset 0 1px 0 #EEE,white 0 1px 0;
+}
+.box-login{
+    display: block;
+    width: 80%;
+    height: 30px;
+    margin: 15px auto 30px auto;
+    position: relative;
+    overflow: visible;
+}
+
+.box-login input {
+    text-decoration: none;
+    padding: 7px 15px;
+    background-image: linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -o-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -moz-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -webkit-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -ms-linear-gradient(bottom,#F0F0F0 6%, #F9F9F9 53%); 
+    border: 1px solid #CCC;
+    color: #333;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1); 
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box-login input:hover{
+    background-image: linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -o-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -moz-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -webkit-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -ms-linear-gradient(bottom,#F9F9F9#F0F0F0 6%, #F0F0F0 53%); 
+    border: 1px solid #CCC;
+    color: #222;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+span#left_submit{
+    float: left;
+}
+span#right_submit{
+    width: 100%;
+}
+/* BOTTOM.....................................................*/
+#bottom{
+    float: right;
+    width: 100%; 
+    color: #4787ED; 
+    padding: 0.1% 0 0 0;
+}
+#bottom #bottom_right{
+    float: right; 
+    width: 100%;
+    margin-top: 20px;
+}
+#bottom #bottom_right ul{
+    padding: 0px; 
+} 
+#bottom #bottom_right ul li, #bottom #bottom_right ul li a{
+    float: right; 
+    padding: 0px 10px;
+    list-style: none;
+    text-transform: capitalize;
+}
+#bottom #bottom_right ul li a{
+    text-decoration: none;
+    color:#343434;
+    font-size: 12px;
+}
+#bottom #bottom_right ul li a:hover{
+    text-decoration: none;
+}

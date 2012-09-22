@@ -1,0 +1,184 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0px;
+    padding: 0px;
+    min-width: 800px;
+    width:100%
+}
+div.split{
+    float: left;
+    width: 100%;
+    padding: 0px;
+    height: 1px;
+    border-top: 1px solid #EBEBEB;
+    margin: 30px 0px;
+}
+div.split a{
+    float: right;
+    width: 20px;
+    padding:5px;
+    background: #FFF;
+    margin-top: -20px;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.header{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 0px;
+    color: #FFFFFF;
+    height: 70px;
+    background-image: -o-linear-gradient(rgb(43,171,230) ,rgb(34,141,191));
+    background-image: -moz-linear-gradient(center top , #2BABE6, #228DBF);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#2BABE6), to(228DBF)); 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -o-border-radius-top-left: 8px;
+    -o-border-radius-top-right: 8px;
+    -moz-border-top-left-radius: 8px;
+    -moz-border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+.header p{
+    float: left;
+    padding: 5px 10px; 
+    font-size: 20px;
+}
+.footer{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding:10px 0; 
+    background: url('footer.jpg') center repeat-x; 
+    color: #FFF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -o-border-radius-bottom-left: 8px;
+    -o-border-radius-bottom-right: 8px;
+    -moz-border-bottom-left-radius: 8px;
+    -moz-border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+.footer a{
+    color:#2BABE6;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#D14836;
+    text-decoration: none;
+}
+#wrapper{
+    margin: 3% auto;
+    width: 60%;
+}
+.wrapp{
+    float: left; 
+    background: #fff; 
+    box-shadow: 0 0 20px #CCC;
+    border-radius: 8px;
+    border-radius: 8px;
+    -o-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.about, form{
+    float: left;   
+    border-top: none; 
+}
+.shadow{
+    float: left;
+    height: 5px;
+    width: 100%;
+    background:dimgray;
+}
+.about{
+    float: left;
+    padding: 15px;
+    width: 800px;
+    background:#fff;
+}
+.about a{
+    color:#2BABE6;
+    text-decoration: underline;
+}
+.about a:hover{
+    color:#D14836;
+    text-decoration: none;
+}
+form{
+    float: left;
+    padding: 5px;
+    width: 800px;
+    background: #fff; 
+}
+form p{
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+form p i{
+    color: #ff6666;
+    font-size:11px;
+}
+form p label{
+    float: left;
+    width: 35%;
+    text-align: right;
+    font-weight: 600;
+    margin-right: 10px;
+}
+form p input.field{
+    border: 1px solid #e1e1e1;
+    padding: 7px;
+    font-size: 14px; 
+    width: 63%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button{
+    cursor: pointer;
+    text-decoration: none; 
+    background-color: #2BABE6;
+    padding: 10px;
+    background-image: -moz-linear-gradient(center top , #2BABE6, #228DBF);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#2BABE6), to(228DBF)); 
+    border:none;
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-size: 12px;
+}
+.button:hover { 
+    background-color: #C53727;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #C53727);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#DD4B39), to(#D14836)); 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+div.info{
+    float: left;
+    width: 100%;
+    background: #ffff99;
+}
+div.error{
+    color: #ff0000;
+}

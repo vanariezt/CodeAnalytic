@@ -1,0 +1,213 @@
+.light_box{
+    position: fixed;
+    text-align: left;
+    background:  none repeat scroll 0 0 #ccc;
+    padding: 4px;
+    z-index: 1;
+    box-shadow: 0 0 50px #000;
+    -moz-box-shadow: 0 0 50 #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -o-box-shadow: 0 0 50px #000;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.light_box #top_tap{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+}
+.light_box #top_tap h4{
+    font-size: 18px;
+    font-weight: 500; 
+    color: #ccc;
+    text-transform: capitalize;  
+}
+div#c_notive{
+    padding: 20px;
+    background: #FFFFFF;
+    color: #cc0000;
+}
+div#notive{
+    text-align: center;  
+    font-size: 13px;
+    cursor: pointer;
+    max-width: 400px; 
+    margin-left: 41.5%;
+    margin-top: 3px;
+    position: fixed;
+    top: 150px;
+    z-index: 100;
+    box-shadow: 0 0 20px #ccc;
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    -o-box-shadow: 0 0 20px #ccc;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.light_box .editor_tab h2{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.light_box div.content,.light_box div.footer, .light_box .launch_footer{
+    float: left;
+    width: 100%; 
+    margin: 0px;
+}
+.light_box p{
+    float: left;
+    padding: 5px 0 0 0;
+    width: 100%; 
+}
+.light_box p input, .light_box p select{ 
+
+}
+.light_box p:last-child{
+    border-bottom: none;
+}
+.light_box label{
+    float: left;
+    padding: 5px;
+    width: 25%;
+    text-transform:uppercase;
+    font-size: 12px;
+} 
+
+
+.light_box span{
+    float: left; 
+    padding: 5px;
+}
+.light_box div.content{
+    background-color: #FFF;
+}
+.light_box div.footer, .light_box .launch_footer{
+    text-align: right;
+    padding-top: 10px;
+    margin-top: 10px;
+    float: left; 
+}
+.light_box .menu_tab{
+    padding: 10px 5px 3px 5px;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+.light_box .menu_tab a{
+    color: #666;
+    text-decoration: none;
+}
+.light_box .menu_tab a{
+    padding: 5px;
+
+}
+.light_box .menu_tab a.selected{
+    background-color: #FFF;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+}
+.light_box div.footer a, .light_box .launch_footer a{     
+    background-image: linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -o-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -moz-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -webkit-linear-gradient(bottom, #F9F9F9 6%, #F0F0F0 53%);
+    background-image: -ms-linear-gradient(bottom,#F9F9F9 6%, #F0F0F0 53%);
+    border: 1px solid #CCC;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 7px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+   }
+.light_box div.footer a:hover, .light_box .launch_footer a:hover{ 
+    background-image: linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -o-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -moz-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -webkit-linear-gradient(bottom, #F0F0F0 6%, #F9F9F9 53%);
+    background-image: -ms-linear-gradient(bottom,#F0F0F0 6%, #F9F9F9 53%);
+    border: 1px solid #CCC;
+    box-shadow: #C00;
+    color: #222;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: bold;
+}
+.light_box .light_content{
+    background: #FFFFFF;
+    float: left;
+    max-height: 500px;
+    min-width: 400px;
+    max-width: 750px; 
+    padding: 15px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+.light_box .light_content .information{
+    border: 1px solid #DD4B39;
+    background: #ffffcc url("images/small/notification.png") -15px center no-repeat;
+    padding: 2%;
+    color: #990000;
+    padding-left: 35px;
+}
+.light_box .light_content .footer, .light_box .launch_footer{
+    text-align: right; 
+}
+.light_box fieldset{
+    border: 1px solid #ebebeb;
+}
+.light_box fieldset legend{
+    color: #666;
+    font-size: 12px;
+}
+.light_box div.notes{
+    padding: 2px 2%; 
+    width: 96%;
+    line-height: 25px; 
+    text-align: center;
+    color: #cc0000;
+}
+.light_box div.header{
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.light_box div.header h2{
+    text-transform: capitalize;
+
+}
+.light_box .content a.box-wi{
+    float: left;
+    width: 37%;
+    margin-left: 2%;
+    padding: 5%;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+}
+.light_box form#config label span i,.light_box form#config i{
+    font-weight: normal;
+    font-size: 11px; 
+    float: left;
+    width: 100%;
+}
+.light_box form#config label{
+    float: left;
+    padding: 5px;
+    width: 33%;
+    text-transform:capitalize;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 2%;
+}

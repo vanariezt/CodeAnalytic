@@ -1,0 +1,59 @@
+.dropotron li.opener {
+}
+.dropotron { 
+    padding: 0px 0px; 
+    list-style: none; 
+    font-family: Arial, sans-serif;
+    background:#1E2228;
+    min-width: 150px;
+}
+.dropotron a {
+    text-decoration: none; 
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    color:#FFF; 
+} 
+.dropotron li {
+    height: 39px;
+    padding: 0px 5px; 
+    line-height: 39px; 
+    border-bottom: 1px solid #CCC;
+} 
+.dropotron li:hover > a, .dropotron li:hover > span {
+    color:#CCC; 
+}
+.dropotron li .arrow {
+}
+.dropotron span {
+    display: block;
+    margin-right: -1px;
+}
+.dropotron li:hover > span {
+    background: #EBEBEB;
+}
+.dropotron .first {
+    background: none;
+}
+ul#parent_menu{
+    list-style: none;
+    background: #EBEBEB;
+    float: left;
+    width: 99.8%;
+    border-left: 1px dotted #F0F0F0;
+    border-right: 1px dotted #F0F0F0;
+}
+ul#parent_menu li{
+    float: left;
+    border-right: 1px dotted #F0F0F0;
+}
+ul#parent_menu li:last-child{
+    border-right:none;
+}
+ul#parent_menu li a{
+    float: left;
+    padding: 2px 10px;
+    font-size: 11px; 
+    color:#FFB245 ;
+}
