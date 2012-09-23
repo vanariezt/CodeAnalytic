@@ -17,11 +17,6 @@ CodeAnalytic Team
 - <a href="http://twitter.com/hadinug1" target="_blank">N.R. Hadi Wibowo </a>
 - <a href="http://twitter.com/ncarrabien" target="_blank">Y. Yasser Muhammmad </a>
 
-CodeAnalytic Download Version
--
-- Get the download codeanalytic in github in every version 
-- <a href="https://github.com/CodeAnalytic/0.2.0" target="_blank">CodeAnalytic V.0.2.0</a>
-- <a href="https://github.com/CodeAnalytic/0.2.1" target="_blank">CodeAnalytic V.0.2.1</a>
 
 CodeAnalytic Install and Upgrade
 -
