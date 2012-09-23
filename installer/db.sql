@@ -230,7 +230,8 @@ CREATE TABLE IF NOT EXISTS `ca_members` (
 --
 
 -- --------------------------------------------------------
-
+INSERT INTO `ca_members` (`id`, `username`, `password`, `email`, `photo`, `first_name`, `last_name`, `gender`, `address`, `phone`, `born`, `about`, `login_from`, `last_login`, `is_activated`, `order`, `publish`) VALUES
+('uF3gO1shm4', 'noname', 'af74363590cf3797d6c6383aaa2750d4', 'noname@codeanalytic.com', '1346824383_ca_thumb_middle.png', '', '', '', '', '', '0000-00-00', '', '', '2012-09-05 05:41:26', '0', 0, '1');
 --
 -- Table structure for table `ca_members_statistic`
 --
